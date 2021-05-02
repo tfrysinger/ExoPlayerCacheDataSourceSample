@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">CustomCacheSample</string>
+    <string name="select_video_label">Select Video</string>
+    <string name="video_media_type">Video</string>
+    <string name="video_media_example">https://www.learningcontainer.com/wp-content/uploads/2020/05/sample-mp4-file.mp4</string>
+    <string name="alert_cancel">Cancel</string>
+    <string name="uri_hint">Optionally enter an external Uri</string>
+    <string name="alert_ok" tools:ignore="all">Ok</string>
+    <string name="play_video">Play Video</string>
+    <string name="alert_no_package_exists_title">Chooser Error!</string>
+    <string name="alert_no_package_exists_message">This device does not appear to have any app that can select a video to play!</string>
+    <string name="alert_no_video_chosen_title">Chooser Error!</string>
+</resources>

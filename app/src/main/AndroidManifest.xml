@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.reddragon.customcachesample">
+
+    <!-- support for package queries on Android 11+ -->
+    <queries>
+        <!-- Choose Video Files -->
+        <intent>
+            <action android:name="android.intent.action.OPEN_DOCUMENT" />
+            <data android:mimeType="video/*"/>
+        </intent>
+    </queries>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:name="com.reddragon.customcachesample.CustomCacheApp"
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ExoPlayerCustomCache">
+        <activity android:name="com.reddragon.customcachesample.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
